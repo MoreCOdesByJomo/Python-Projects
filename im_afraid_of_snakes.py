@@ -15,3 +15,10 @@ is_male=True #boolean
 
 x=y=z=10 #assigning one value to multiple variales
 x,y,z=5,10,11 #assigning multiple values to multiple variables
+
+#case sensitivity
+STUDENT_NAME = "James"
+student_name = "Jonas"
+print(STUDENT_NAME)
+
+

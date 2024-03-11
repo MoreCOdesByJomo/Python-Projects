@@ -21,4 +21,3 @@ STUDENT_NAME = "James"
 student_name = "Jonas"
 print(STUDENT_NAME)
 
-

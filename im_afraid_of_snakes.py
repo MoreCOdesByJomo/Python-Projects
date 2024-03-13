@@ -48,3 +48,51 @@ if constituency=="Westlands" or "Kasarani" or "Westlands" and age>=18:
     print("you can be Governor Of Nairobi")
 else:
     print("you cannot be Governor Of Nairobi")
+
+
+
+pen=60.0
+books="50"
+total = pen+float(books)
+result="my total is "+str(total)+" Kenya shillings"
+print(result)
+#print("the total is",total)
+
+y=100
+x=2
+ans=y%x
+if ans==0:
+    print("y is an even number")
+else :
+    print("y is an odd number")
+
+
+
+
+
+#y =int(input("enter your number here"))
+x = 2
+ans = y % x
+if ans == 0:
+    print("y is an even number")
+else:
+    print("y is an odd number")
+
+
+
+#loops
+#the while loop...
+x=1
+while x<5:
+ if x==3:
+    break
+    print(x)
+    x+=1
+
+y=1
+while y<5:
+    y+=1
+    if y==3:
+        continue
+        print(y)
+        y+=1

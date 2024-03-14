@@ -69,7 +69,7 @@ else :
 
 
 
-
+"""
 #y =int(input("enter your number here"))
 x = 2
 ans = y % x
@@ -96,3 +96,40 @@ while y<5:
         continue
         print(y)
         y+=1
+
+"""
+
+"""
+country=input("enter your country")
+if country=="Kenya":
+    print("Free Trade Accepted")
+elif country=="Tanzania":
+    print("Free Trade Accepted")
+elif country=="Uganda":
+    print("Free Trade Accepted")
+elif country=="S.Sudan":
+    print("Free Trade Accepted")
+else:
+    print("Free Trade Denied")
+"""
+
+"""
+x=1
+while x<=10:
+    if x==3 or x==5:
+        x+=1 #this is used for the increment
+        continue
+    print("the number is",x)
+    x+=1
+"""
+
+
+total=0
+number=1
+while number<=10:
+    total +=number
+    number+=2
+    print("the sum of odd nubers is",total)
+
+
+

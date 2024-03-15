@@ -129,7 +129,44 @@ number=1
 while number<=10:
     total +=number
     number+=2
-    print("the sum of odd nubers is",total)
+    print("the sum of odd numbers is",total)
+
+#For Loop
+"""Dogs=("pup","pug","German Shepherd")
+for x in Dogs:
+    print(x)
+"""
+
+
+"""for x in range(1,10,2):
+    print(x+x+x+x+x)
+    """
+
+
+total=0
+for num  in range(1,11,2):
+    total+=num
+    print("The sum of odd numbers of",total)
+
+sum_odd=0
+for i in range(10):
+    if i%2!=0:
+        sum_odd +=1
+print("The sum of odd numbers",sum_odd)
+
+#List(A variable that holds a number of items)
+"""
+my_students=list()#empty list
+my_stationery=["pens","books","pencils"]
+print(my_stationery)
+my_stationery.append("files")
+print(my_stationery)
+my_stationery[0]="booksupdated"
+print(my_stationery)
+"""
+
+my_name=input("enter your name")
+print("Yourname is",my_name)
 
 
 

@@ -166,7 +166,11 @@ print(my_stationery)
 """
 
 my_name=input("enter your name")
-print("Yourname is",my_name)
+print("Your name is",my_name)
 
-
+name=list()
+fir_name=input("enter your first name")
+sec_name=input("enter your second name")
+third_name=input("enter your third name")
+print("Your name is",fir_name,sec_name,third_name)
 

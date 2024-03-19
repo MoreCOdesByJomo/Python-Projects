@@ -77,9 +77,9 @@ if ans == 0:
     print("y is an even number")
 else:
     print("y is an odd number")
+"""
 
-
-
+"""
 #loops
 #the while loop...
 x=1
@@ -88,7 +88,9 @@ while x<5:
     break
     print(x)
     x+=1
+"""
 
+"""
 y=1
 while y<5:
     y+=1
@@ -155,6 +157,7 @@ for i in range(10):
 print("The sum of odd numbers",sum_odd)
 
 #List(A variable that holds a number of items)
+
 """
 my_students=list()#empty list
 my_stationery=["pens","books","pencils"]
@@ -165,12 +168,162 @@ my_stationery[0]="booksupdated"
 print(my_stationery)
 """
 
+"""
 my_name=input("enter your name")
 print("Your name is",my_name)
+"""
 
+"""
 name=list()
 fir_name=input("enter your first name")
 sec_name=input("enter your second name")
 third_name=input("enter your third name")
 print("Your name is",fir_name,sec_name,third_name)
+"""
+
+"""
+#tuples
+fruits = ( "apple", "banana", "mangoes")
+print(fruits)
+print(fruits[2])
+#if I want to modify a tuple
+# convert tuple into a list
+# make your changes
+# revert list back to tuple
+
+#How to change from tuple to list
+myfruitslist=list(fruits) #converting a tuple into a list
+print(myfruitslist)
+myfruitslist[2]="pineapples" #modifying the list
+print(myfruitslist)
+fruits=tuple(myfruitslist) #converting the list back to a tuple
+print(fruits)
+#fruits[2]="pineapples"
+#print(fruits)
+
+#dictionary
+cardict ={
+    "brand":"Ford",
+    "model":"Mustang",
+    "year": 1986
+}
+
+print(cardict[ "year"])
+"""
+
+#creating a function
+"""
+def printJomo(x):
+    for i in range(1,11):
+     print(x)
+
+#making a call to a function
+#for i in range (100):
+printJomo("zooweee")
+
+
+#function for modulus
+def getModulus(x,y):
+    return x%y
+
+
+print(getModulus( 5,  2))
+"""
+
+
+
+
+#LISTS     QUESTION2:Write A Program That Outputs The Repeated Elements In A List
+
+replists = ["apple","banana","orange","apple","watermelon"]
+for x in range(0,4,3):
+ print(replists[x])
+
+
+
+
+
+#TUPLES      QUESTION1:Write A Program That Adds Items To A Tuple
+"""
+
+pyfruit = ("apple", "banana", "cherry")
+print(pyfruit)
+def additems(x):
+    y = list(pyfruit)
+    y.append(input("Fruit To Be Added: "))
+    pyfruits = tuple(y)
+    print(pyfruits)
+additems(x)
+
+
+
+
+
+#DICTIONARY    QUESTION1:Write A Program That Deletes A List Of Keys From A Dictionary
+
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+car==input("Enter Key Values To Be Deleted:")
+if input=="brand":
+    del car["brand"]
+    print(car["model"])
+    print(car["year"])
+
+elif input=="model":
+    del car["model"]
+    print(car["year"])
+    print(car["brand"])
+
+elif input=="year":
+    del car["year"]
+    print(car["brand"])
+    print(car["model"])
+"""
+#DICTIONARY QUESTION2:Write A Program That Checks If A Value Exists in A Dictionary
+
+car =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(car)
+def valuecheck(x):
+    input("Check If Value Is Present: ")
+    if input==["Ford"] or input==["Mustang"] or input==[1964]:
+       print("Present")
+    else:
+        x +=(input)
+        print("Added")
+        print(x)
+
+
+valuecheck(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -235,16 +235,25 @@ print(getModulus( 5,  2))
 
 #LISTS     QUESTION2:Write A Program That Outputs The Repeated Elements In A List
 
-replists = ["apple","banana","orange","apple","watermelon"]
-for x in range(0,4,3):
- print(replists[x])
+listz=["cheese","tomato","potato","tomato","ram","ram"]
+repeated_veg=set()
+unrepeated_veg=[]
+for item in listz:
+    if listz.count(item)>1:
+        repeated_veg.add(item)
+    else:
+        unrepeated_veg.append(item)
+
+
+print("The repeated item is",repeated_veg)
+print("The unrepeated item is",unrepeated_veg)
 
 
 
 
 
 #TUPLES      QUESTION1:Write A Program That Adds Items To A Tuple
-"""
+
 
 pyfruit = ("apple", "banana", "cherry")
 print(pyfruit)
@@ -262,29 +271,18 @@ additems(x)
 #DICTIONARY    QUESTION1:Write A Program That Deletes A List Of Keys From A Dictionary
 
 
-car =	{
-  "brand": "Ford",
-  "model": "Mustang",
-  "year": 1964
-}
-car==input("Enter Key Values To Be Deleted:")
-if input=="brand":
-    del car["brand"]
-    print(car["model"])
-    print(car["year"])
+mydict={"brand":"Toyota","model":"Haarrier","year":2016}
 
-elif input=="model":
-    del car["model"]
-    print(car["year"])
-    print(car["brand"])
 
-elif input=="year":
-    del car["year"]
-    print(car["brand"])
-    print(car["model"])
-"""
+
+#Solution 2
+mydict={"brand":"Toyota","model":"Haarrier","year":2016}
+print("Koech :My Old Dictionary Is",mydict)
+del mydict["year"], mydict["brand"]
+print("Koech : My New Dictionary Is",mydict)
 #DICTIONARY QUESTION2:Write A Program That Checks If A Value Exists in A Dictionary
 
+"""
 car =	{
   "brand": "Ford",
   "model": "Mustang",
@@ -300,8 +298,8 @@ def valuecheck(x):
         print("Added")
         print(x)
 
+"""
 
-valuecheck(x)
 
 
 

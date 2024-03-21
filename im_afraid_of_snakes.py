@@ -301,6 +301,13 @@ def valuecheck(x):
 """
 
 
+#Erro Handling
+number1=1
+number2=20
+
+x=number1/number2
+print(x)
+print("Programme Ended")
 
 
 
